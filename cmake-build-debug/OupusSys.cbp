@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OupusSys"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OupusSys">
+				<Option output="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/OupusSys" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 OupusSys"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OupusSys/fast">
+				<Option output="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/OupusSys" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 OupusSys/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lazarus/Área\ de\ Trabalho/OupusSys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/Cliente.c">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/Cliente.h">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/Interface.c">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/Interface.h">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/Produto.c">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/Produto.h">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/main.c">
+			<Option target="OupusSys"/>
+		</Unit>
+		<Unit filename="/home/lazarus/Área de Trabalho/OupusSys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lazarus/Área de Trabalho/OupusSys/Cliente.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+Cliente.h
+/home/lazarus/Área de Trabalho/OupusSys/Cliente.h
+
+/home/lazarus/Área de Trabalho/OupusSys/Cliente.h
+Produto.h
+/home/lazarus/Área de Trabalho/OupusSys/Produto.h
+
+/home/lazarus/Área de Trabalho/OupusSys/Produto.h
+stdio.h
+-
+

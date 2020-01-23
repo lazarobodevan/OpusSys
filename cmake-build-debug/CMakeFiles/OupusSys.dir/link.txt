@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/OupusSys.dir/main.c.o CMakeFiles/OupusSys.dir/Cliente.c.o CMakeFiles/OupusSys.dir/Produto.c.o CMakeFiles/OupusSys.dir/Interface.c.o  -o OupusSys 
