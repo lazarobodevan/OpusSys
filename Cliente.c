@@ -65,33 +65,13 @@ void imprimeDados(TCliente cliente){
     printf("Data de Nascimento: %s\n", cliente.dtNasc);
 }
 
-int iniciaCarrinho(TCarrinho *carrinho){
-    carrinho = (TCarrinho*) malloc(sizeof(carrinho));
-    carrinho->pPrim->pProx = NULL;
-    carrinho->pUlt = carrinho->pPrim;
-    strcpy(carrinho->pPrim->produto.nome, "");
-    carrinho->pPrim->produto.preco = -1;
-}
-int addAoCarrinho(TListaDeProdutos *produtos, TCarrinho *carrinho){
-    char nomeProduto[25];
-    printf("Digite o nome do produto");
-    fgets(nomeProduto, 25, stdin);
-    for (int i = 0; i < 10; ++i) {
-        if(strcmp(produtos->produtos->nome, nomeProduto)){
-            printf("Quantidade: ");
-            scanf("%d",&carrinho->pUlt->quantidade);
-            break;
-        }
-    }
-    printf("Não existe, moh!\n");
-}
-
 int leClientes(TClientes *clientes, FILE *arqClientes){
     arqClientes = fopen("clientes.txt", "r");
     if(arqClientes == NULL){
         printf("Erro ao ler arquivo!\n");
         return 0;
     }
+    printf("\n---> LENDO CLIENTES CADASTRADOS!\n");
     iniciaClientes(clientes);
     int i = 0;
     char nome[40];
@@ -113,7 +93,8 @@ int leClientes(TClientes *clientes, FILE *arqClientes){
         i++;
     }
     clientes->qtdClientes = i;
-    printf("\n---> %d clientes lidos!\n", i);
+    printf("---> LEITURA CONCLUIDA COM SUCESSO!\n");
+    printf("---> %d CLIENTES CADASTRADOS!\n", i);
 }
 
 int pesquisarCliente(TClientes *clientes){

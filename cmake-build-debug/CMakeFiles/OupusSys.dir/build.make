@@ -43,10 +43,10 @@ RM = "/home/lazarus/Área de Trabalho/clion-2019.1.4/bin/cmake/linux/bin/cmake" 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/OupusSys"
+CMAKE_SOURCE_DIR = "/home/lazarus/Área de Trabalho/Development/OupusSys"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OupusSys.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/OupusSys.dir/flags.make
 
 CMakeFiles/OupusSys.dir/main.c.o: CMakeFiles/OupusSys.dir/flags.make
 CMakeFiles/OupusSys.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OupusSys.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/main.c.o   -c "/home/lazarus/Área de Trabalho/OupusSys/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OupusSys.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/main.c.o   -c "/home/lazarus/Área de Trabalho/Development/OupusSys/main.c"
 
 CMakeFiles/OupusSys.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OupusSys.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/OupusSys/main.c" > CMakeFiles/OupusSys.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/Development/OupusSys/main.c" > CMakeFiles/OupusSys.dir/main.c.i
 
 CMakeFiles/OupusSys.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OupusSys.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/OupusSys/main.c" -o CMakeFiles/OupusSys.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/Development/OupusSys/main.c" -o CMakeFiles/OupusSys.dir/main.c.s
 
 CMakeFiles/OupusSys.dir/Cliente.c.o: CMakeFiles/OupusSys.dir/flags.make
 CMakeFiles/OupusSys.dir/Cliente.c.o: ../Cliente.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OupusSys.dir/Cliente.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/Cliente.c.o   -c "/home/lazarus/Área de Trabalho/OupusSys/Cliente.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OupusSys.dir/Cliente.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/Cliente.c.o   -c "/home/lazarus/Área de Trabalho/Development/OupusSys/Cliente.c"
 
 CMakeFiles/OupusSys.dir/Cliente.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OupusSys.dir/Cliente.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/OupusSys/Cliente.c" > CMakeFiles/OupusSys.dir/Cliente.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/Development/OupusSys/Cliente.c" > CMakeFiles/OupusSys.dir/Cliente.c.i
 
 CMakeFiles/OupusSys.dir/Cliente.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OupusSys.dir/Cliente.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/OupusSys/Cliente.c" -o CMakeFiles/OupusSys.dir/Cliente.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/Development/OupusSys/Cliente.c" -o CMakeFiles/OupusSys.dir/Cliente.c.s
 
 CMakeFiles/OupusSys.dir/Produto.c.o: CMakeFiles/OupusSys.dir/flags.make
 CMakeFiles/OupusSys.dir/Produto.c.o: ../Produto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OupusSys.dir/Produto.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/Produto.c.o   -c "/home/lazarus/Área de Trabalho/OupusSys/Produto.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OupusSys.dir/Produto.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/Produto.c.o   -c "/home/lazarus/Área de Trabalho/Development/OupusSys/Produto.c"
 
 CMakeFiles/OupusSys.dir/Produto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OupusSys.dir/Produto.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/OupusSys/Produto.c" > CMakeFiles/OupusSys.dir/Produto.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/Development/OupusSys/Produto.c" > CMakeFiles/OupusSys.dir/Produto.c.i
 
 CMakeFiles/OupusSys.dir/Produto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OupusSys.dir/Produto.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/OupusSys/Produto.c" -o CMakeFiles/OupusSys.dir/Produto.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/Development/OupusSys/Produto.c" -o CMakeFiles/OupusSys.dir/Produto.c.s
 
 CMakeFiles/OupusSys.dir/Interface.c.o: CMakeFiles/OupusSys.dir/flags.make
 CMakeFiles/OupusSys.dir/Interface.c.o: ../Interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OupusSys.dir/Interface.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/Interface.c.o   -c "/home/lazarus/Área de Trabalho/OupusSys/Interface.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OupusSys.dir/Interface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OupusSys.dir/Interface.c.o   -c "/home/lazarus/Área de Trabalho/Development/OupusSys/Interface.c"
 
 CMakeFiles/OupusSys.dir/Interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OupusSys.dir/Interface.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/OupusSys/Interface.c" > CMakeFiles/OupusSys.dir/Interface.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/lazarus/Área de Trabalho/Development/OupusSys/Interface.c" > CMakeFiles/OupusSys.dir/Interface.c.i
 
 CMakeFiles/OupusSys.dir/Interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OupusSys.dir/Interface.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/OupusSys/Interface.c" -o CMakeFiles/OupusSys.dir/Interface.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/lazarus/Área de Trabalho/Development/OupusSys/Interface.c" -o CMakeFiles/OupusSys.dir/Interface.c.s
 
 # Object files for target OupusSys
 OupusSys_OBJECTS = \
@@ -125,7 +125,7 @@ OupusSys: CMakeFiles/OupusSys.dir/Produto.c.o
 OupusSys: CMakeFiles/OupusSys.dir/Interface.c.o
 OupusSys: CMakeFiles/OupusSys.dir/build.make
 OupusSys: CMakeFiles/OupusSys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable OupusSys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable OupusSys"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OupusSys.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/OupusSys.dir/clean:
 .PHONY : CMakeFiles/OupusSys.dir/clean
 
 CMakeFiles/OupusSys.dir/depend:
-	cd "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazarus/Área de Trabalho/OupusSys" "/home/lazarus/Área de Trabalho/OupusSys" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lazarus/Área de Trabalho/Development/OupusSys" "/home/lazarus/Área de Trabalho/Development/OupusSys" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/OupusSys.dir/depend
 

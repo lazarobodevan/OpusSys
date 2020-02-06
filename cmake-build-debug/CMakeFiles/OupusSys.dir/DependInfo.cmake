@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lazarus/Área de Trabalho/OupusSys/Cliente.c" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/Cliente.c.o"
-  "/home/lazarus/Área de Trabalho/OupusSys/Interface.c" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/Interface.c.o"
-  "/home/lazarus/Área de Trabalho/OupusSys/Produto.c" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/Produto.c.o"
-  "/home/lazarus/Área de Trabalho/OupusSys/main.c" "/home/lazarus/Área de Trabalho/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/main.c.o"
+  "/home/lazarus/Área de Trabalho/Development/OupusSys/Cliente.c" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/Cliente.c.o"
+  "/home/lazarus/Área de Trabalho/Development/OupusSys/Interface.c" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/Interface.c.o"
+  "/home/lazarus/Área de Trabalho/Development/OupusSys/Produto.c" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/Produto.c.o"
+  "/home/lazarus/Área de Trabalho/Development/OupusSys/main.c" "/home/lazarus/Área de Trabalho/Development/OupusSys/cmake-build-debug/CMakeFiles/OupusSys.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

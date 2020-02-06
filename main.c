@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include "Cliente.h"
+#include "Interface.h"
 int main() {
+
     TClientes *clientes;
-    FILE *arqClientes;
-    //cadastraCliente(cliente, clientes);
-    leClientes(clientes, arqClientes);
-    imprimeClientes(*clientes);
-    //cadastraCliente(clientes, arqClientes);
-    //imprimeClientes(*clientes);
-    pesquisarCliente(clientes);
-    return 0;
+    //TProdutos *produtos;
+    FILE *arqClientes, *arqProdutos;
+
+//    leClientes(clientes, arqClientes);
+    //leProduto(produtos, arqProdutos);
+    interface();
+
+
 }

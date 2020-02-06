@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/lazarus/Área de Trabalho/OupusSys/Cliente.c
+/home/lazarus/Área de Trabalho/Development/OupusSys/Cliente.h
 stdio.h
 -
-stdlib.h
--
-string.h
+
+/home/lazarus/Área de Trabalho/Development/OupusSys/Interface.h
+
+/home/lazarus/Área de Trabalho/Development/OupusSys/main.c
+stdio.h
 -
 Cliente.h
-/home/lazarus/Área de Trabalho/OupusSys/Cliente.h
-
-/home/lazarus/Área de Trabalho/OupusSys/Cliente.h
-Produto.h
-/home/lazarus/Área de Trabalho/OupusSys/Produto.h
-
-/home/lazarus/Área de Trabalho/OupusSys/Produto.h
-stdio.h
--
+/home/lazarus/Área de Trabalho/Development/OupusSys/Cliente.h
+Interface.h
+/home/lazarus/Área de Trabalho/Development/OupusSys/Interface.h
 

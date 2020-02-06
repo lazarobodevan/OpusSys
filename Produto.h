@@ -8,17 +8,43 @@ typedef struct{
     double preco;
     int qtdPratileira;
     int qtdEstoque;
-    char validade[10];
+    char validade[11];
     int codigo;
 }TProduto;
 
-typedef struct{
-    int pPrim, pUlt;
-    TProduto produtos[10];
-}TListaDeProdutos;
+typedef struct CelulaProduto{
+    TProduto produto;
+    struct CelulaProduto *pProx, *pAnte;
+}TCelulaProduto;
 
-int addProdPratileira(TProduto *produto);
+typedef struct {
+    TCelulaProduto *pPrim, *pUlt;
+}TProdutos;
+
+
+//--> Lista Encadeada de Produtos para compor um carrinho
+typedef struct CelulaCarrinho{
+    TProduto produto;
+    int quantidade;
+    struct CelulaCarrinho *pProx;
+}TCelulaCarrinho; //Celula contendo o produto
+
+typedef struct {
+    TCelulaCarrinho *pPrim, *pUlt;
+}TCarrinho;
+
+
+int iniciaProdutos(TProdutos *produtos);
+int alocaProduto(TProdutos *produtos);
+int cadastrarProduto(TProdutos *produtos, FILE *arqProdutos);
+int validarCodigo(TProdutos *produtos, int codigo);
+int leProduto(TProdutos *produtos, FILE *arqProdutos);
+
+int verificaDisponibilidade(TProduto *produto);
+int addProdPratileira(TProduto *produto, int qtd);
 int addProdEstoque(TProduto *produto);
-int cadastrarProduto(TProduto *produto, FILE *produtos, TListaDeProdutos *listadeprodutos);
-void resumoprodutos(TListaDeProdutos produtos);
+void resumoprodutos(TProdutos produtos);
 void getCategoria(TProduto produto);
+
+int iniciaCarrinho(TCarrinho *carrinho);
+int addAoCarrinho(TProdutos *produtos, TCarrinho *carrinho);
